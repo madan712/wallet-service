@@ -70,7 +70,7 @@ public class WalletController {
 		}
 	}
 
-	@GetMapping("/player/{playerId}")
+	@GetMapping("/players/{playerId}")
 	public ResponseEntity<?> getPlayer(@PathVariable Long playerId) throws DataException {
 		try {
 			Player player = playerRepository.findById(playerId)
@@ -82,7 +82,7 @@ public class WalletController {
 		}
 	}
 
-	@GetMapping("/player/{playerId}/balance")
+	@GetMapping("/players/{playerId}/balance")
 	public ResponseEntity<?> getBalance(@PathVariable Long playerId) throws DataException {
 		try {
 			BigDecimal balance = playerRepository.findById(playerId)
@@ -94,7 +94,7 @@ public class WalletController {
 		}
 	}
 
-	@GetMapping("/player/{playerId}/transactions")
+	@GetMapping("/players/{playerId}/transactions")
 	public ResponseEntity<?> getTransactionHistory(@PathVariable Long playerId) {
 		try {
 			List<Transaction> transactions = transactionRepository.findByPlayer(playerRepository.findById(playerId)
