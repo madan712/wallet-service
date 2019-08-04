@@ -15,6 +15,7 @@ Note: Lombok API is used in this project, so you may need to add Lombok plugin t
 
 ## Swagger UI
 URL - http://localhost:8080/swagger-ui.html <br/>
+
 ![swagger ui](https://photos.google.com/share/AF1QipMNfOlq9yL8VvL_hfMoY_WYPxpl1MBJyUM8yv6f4qxrP7B6bVOO1zztiEiEwbJ0Kw/photo/AF1QipONICGBj80PV56zv0gpg1E_WRaOOx0tWGtDh_Zl?key=S054aHFkd1RxWHBfYm5haWI2RFB6eHZIS0xxbk53)
 
 ## Authentication
@@ -35,7 +36,7 @@ To get a player balance - GET http://localhost:8080/api/player/1/balance <br/>
 
 To get a player transactions - GET http://localhost:8080/api/player/1/transactions <br/>
 
-To perform a transaction - POST http://localhost:8080/api/transact
+To perform a transaction - POST http://localhost:8080/api/transact <br/>
 Request body - <br/>
 ```{"playerId": 1,"transactionKey": "11",	"amount": 0.50,"transactionType": "CREDIT"}```
 
