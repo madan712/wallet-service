@@ -32,9 +32,9 @@ To get all available players - GET http://localhost:8080/api/players <br/>
 
 To get a particular player - GET http://localhost:8080/api/players/{playerId} <br/>
 
-To get a player balance - GET http://localhost:8080/api/players/1/balance <br/>
+To get a player balance - GET http://localhost:8080/api/players/{playerId}/balance <br/>
 
-To get a player transactions - GET http://localhost:8080/api/players/1/transactions <br/>
+To get a player transactions - GET http://localhost:8080/api/players/{playerId}/transactions <br/>
 
 To perform a transaction - POST http://localhost:8080/api/transact <br/>
 Request body - <br/>
