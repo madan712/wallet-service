@@ -16,7 +16,7 @@ Note: Lombok API is used in this project, so you may need to add Lombok plugin t
 ## Swagger UI
 URL - http://localhost:8080/swagger-ui.html <br/>
 
-![swagger ui](https://photos.google.com/share/AF1QipMNfOlq9yL8VvL_hfMoY_WYPxpl1MBJyUM8yv6f4qxrP7B6bVOO1zztiEiEwbJ0Kw/photo/AF1QipONICGBj80PV56zv0gpg1E_WRaOOx0tWGtDh_Zl?key=S054aHFkd1RxWHBfYm5haWI2RFB6eHZIS0xxbk53)
+![Swagger UI](https://lh3.googleusercontent.com/6V7ME8FYMRGwCAWjg9ieeCprPmSspnL28Bkw6sapAEonUiKXmaxzqMoA02sWHEtRXyoLBv5zzH75XOkdP1gsjIBSaZkMe33HoV8dzt5Oz1EfDF0DK3qkhUIRIoNP8uoaBSpluUzqOuOeJT11Xt1HY6bkp9_5CXVLgDNDQhI6xa60eUg9YRi8-1ey15feXYf4_3kgcpAf_OtpuZIAqIWRa4d1VYaO8HQ0vsXjTaGqXEc4bgSnBqID6cQxbnCi_Z7nBx1dcSA90pGYbhJfPeX2wysPDY0ffZWa_W5gOAWzErO96OOW_gyaY9Te74L4lXvxqMCtK8oApLGSCtCl92YPmj4nwQDPmTnMhCY_EfE2xj9kX54lKNq-AixqKU6mJKxH2HqjulMkDmpAny3Uv5oEdxr5URG3TjNxc-48XhF2DcXnMzFuNh2AI88zVd044njoGZWXNsGgHQPWyISq1jgj9YtYmzyduNLlzWVv33Q-n8gwQI4GFfMerjhmEr3AVFLXmBh0RinGKqCuPjmN-r3xNqULZMyN7_pZjkPrCcanW-d3yqu5HBpio8hZ4iQ1C8Fb0W8ApztI7-76YcGE7rJKeQ8kXFnGKZhkX2-X6W6s5VsvPV_sIyw6h2wxfCpv5WpdZXGB456F9vi64MG3tKvBQWDldZx-fcc=w1167-h657-no)
 
 ## Authentication
 Basic authentication is used in this project so use below credentials to access the endpoints <br/>
