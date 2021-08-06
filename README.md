@@ -15,23 +15,23 @@ A monetary account holds the current balance for a player. The balance can be mo
 
 # NON-FUNCTIONAL REQUIREMENTS
 
-• The solution need not persist data across restarts but it is a bonus if it does.
-• If the solution uses a database, please use h2 or some other in-memory database. Make sure that your build/run script builds, installs and configures any such database.
-• Do not use 3rd party software that entails us to install software on our machines. If 3rd party software is a necessity, create a docker image with a fully prepped environment.
+* The solution need not persist data across restarts but it is a bonus if it does.
+* If the solution uses a database, please use h2 or some other in-memory database. Make sure that your build/run script builds, installs and configures any such database.
+* Do not use 3rd party software that entails us to install software on our machines. If 3rd party software is a necessity, create a docker image with a fully prepped environment.
 
 # What we will look at:
 
-• Design
-• Clean code
-• Testability
-• Software craftsmanship
+* Design
+* Clean code
+* Testability
+* Software craftsmanship
 
 # What you shall think about:
 
-• Concurrency
-• Scalability
-• Atomicity
-• Idempotency
+* Concurrency
+* Scalability
+* Atomicity
+* Idempotency
 
 # FINAL THOUGHTS
 If you think some part of the exercise is unclear, don't worry. 
